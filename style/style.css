@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.redLine {
+  margin-top: -10px;
+  background: rgb(207, 2, 2);
+}
+
+.redLine .dateTime {
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.redLine .welcome {
+  color: white;
+  margin-left: 700px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.hero {
+  margin-top: 5px;
+}
