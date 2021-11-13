@@ -13,14 +13,14 @@
       crossorigin="anonymous"
     />
 
-    <link rel="icon" href="/assets/icon.jpg" />
+    <link rel="icon" href="/assets/icon.png" />
 
     <link rel="stylesheet" href="/style/main.css" />
 
     <title>Aplikasi Fraud JNE</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fraud">
       <div class="container-fluid ms-3">
         <a class="navbar-brand" href="index.html">
           <img src="/assets/logo.jpg" class="w-50" alt="" />
@@ -113,7 +113,7 @@
             >
             <a
               class="nav-link"
-              href="#"
+              href="contactUs.html"
               style="
                 border: solid 1px #eceff5;
                 background: #9b9fa7;
@@ -133,42 +133,134 @@
 
     <div class="redLine">
       <div class="d-flex flex-row">
-        <p class="dateTime">Selasa, 2 November 2021 | 18:11 WIB</p>
-        <p class="welcome">Selamat datang di legal service access</p>
+        <div class="row-lg-6">
+          <p class="dateTime">Selasa, 2 November 2021 | 18:11 WIB</p>
+        </div>
+        <div class="row-lg 6">
+          <p class="welcome">Selamat datang di legal service access</p>
+        </div>
       </div>
     </div>
 
-    <h1 style="margin-top: 10px; margin-left: 12px; font-size: 58px">
-      Our Information
-    </h1>
-
-    <div class="d-flex flex-row">
-      <div class="col-lg-10 ms-3 mb-5">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63466.97770956448!2d106.7518567961305!3d-6.172764655903959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f68a594d549b%3A0xdba97eb6a3c336ac!2sJNE%20Pusat!5e0!3m2!1sid!2sid!4v1635855183648!5m2!1sid!2sid"
-          width="950"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+    <form action="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Customer Despute</h1>
+          </div>
+          <div class="col-6">
+            <label for="">Nomor Kasus :</label>
+            <input type="text" />
+          </div>
+          <div class="col-6">
+            <label for="">Total Kerugian :</label>
+            <input type="text" />
+          </div>
+          <div class="col-6">
+            <label for="">Tanggal :</label>
+            <input type="date" />
+          </div>
+          <div class="col-6">
+            <label for="">Connote/Perjanjian :</label>
+            <input type="text" />
+          </div>
+          <div class="col-6">
+            <label for="">Jenis Kasus :</label>
+            <input type="text" />
+          </div>
+          <div class="col-6">
+            <label for="">Tanggal Kejadian :</label>
+            <input type="date" />
+          </div>
+          <div class="col-6">
+            <label for="">Faktor Penyebab :</label>
+            <input type="date" />
+          </div>
+          <div class="col-6">
+            <label for="">Customer :</label>
+            <input type="date" />
+          </div>
+          <div class="col-6"></div>
+          <div class="col-6">
+            <label for="">Jenis Kiriman :</label>
+            <input type="date" />
+          </div>
+          <div class="col-6"></div>
+          <div class="col-6">
+            <label for="">Asuransi :</label>
+            <input type="date" />
+          </div>
+          <div class="col-12">
+            <p>Kronologis Singkat Kejadian :</p>
+            <div id="editor">
+              <p></p>
+            </div>
+          </div>
+          <div class="col-6">
+            <label for="">Bentuk Kiriman :</label>
+            <input type="text" />
+          </div>
+          <div class="col-6"></div>
+          <div class="col-1">
+            <label for="">Alat Bukti </label>
+          </div>
+          <div class="col-5">
+            <label for="">Keterangan Saksi </label>
+            <input type="text" />
+            <button class="btn btn-primary">Input Data</button>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Dokumen Surat </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Dokumen Form Klaim </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Lain - Lain </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Barang Bukti </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Kelengkapan Dokumen </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-5"></div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <label for="">Bukti Lainnya </label>
+            <input type="text" />
+            <button class="btn btn-danger">Upload</button>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-5">
+            <button class="btn btn-danger">Input</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-2" style="margin-left: -290px">
-        <h2 style="text-transform: uppercase">Legal Service Department:</h2>
-        <p style="margin-top: 30px; font-weight: 500">
-          JNE Express Building, Level 3 Jalan Tomang Raya No. 11, Jakarta Barat,
-          11440 Indonesia
-        </p>
-        <p style="margin-top: 30px; font-weight: 500">Hunting :</p>
-        <p style="margin-top: -18px; font-weight: 500">021 566 5262</p>
-        <p style="margin-top: -18px; font-weight: 500">Ext :</p>
-        <p style="margin-top: -18px; font-weight: 500">10320 - Drafting</p>
-        <p style="margin-top: -18px; font-weight: 500">10355 - Litigation</p>
-        <p style="margin-top: -18px; font-weight: 500">10356 - Permit</p>
-
-        <p style="margin-top: 30px; font-weight: 500">Email : lsd@jne.co,id</p>
-      </div>
-    </div>
+    </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -178,6 +270,11 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace("editor");
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
